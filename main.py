@@ -15,7 +15,8 @@ while True:
 
 
     elif chose == "off":
-        pass
+        print("Good by")
+        break
     elif chose == "report":
         Coffee_Machine.report()
         money.report()
